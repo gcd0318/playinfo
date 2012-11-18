@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Play:</b>
+  <%= @play_player_xref.play_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @play_player_xref.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_play_player_xref_path(@play_player_xref) %> |
+<%= link_to 'Back', play_player_xrefs_path %>
