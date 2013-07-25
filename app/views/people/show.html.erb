@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= link_to @person.name, @person.info, :target=>"_blank" %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= 'M' if @person.gender %>
+</p>
+
+<p>
+  <strong>Org:</strong>
+  <%= @person.org %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @person.username %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>

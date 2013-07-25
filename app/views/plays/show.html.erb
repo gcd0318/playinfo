@@ -1,25 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
+  <strong>Name:</strong>
   <%= @play.name %>
 </p>
 
 <p>
-  <b>Theater:</b>
-  <%= @play.theater_id %>
+  <strong>Story:</strong>
+  <%= @play.story %>
 </p>
-
-<p>
-  <b>Added by:</b>
-  <%= @play.added_by %>
-</p>
-
-<p>
-  <b>Verified by:</b>
-  <%= @play.verified_by %>
-</p>
-
 
 <%= link_to 'Edit', edit_play_path(@play) %> |
 <%= link_to 'Back', plays_path %>

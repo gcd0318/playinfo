@@ -2,12 +2,8 @@
 
 one:
   name: MyString
-  theater_id: 1
-  added_by: 1
-  verified_by: 1
+  story: 
 
 two:
   name: MyString
-  theater_id: 1
-  added_by: 1
-  verified_by: 1
+  story: 
