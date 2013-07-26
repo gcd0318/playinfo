@@ -1,4 +1,6 @@
 Info::Application.routes.draw do
+  resources :theaters
+
   resources :shows
 
   resources :orgs
