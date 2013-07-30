@@ -64,7 +64,7 @@ class TheatersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_theater
-      @theater = Theater.find(params[:id])
+      @theater = Theater.find(params[:i])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

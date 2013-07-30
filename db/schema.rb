@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 20130726065447) do
   end
 
   create_table "theaters", force: true do |t|
-    t.string   "mane"
+    t.string   "name"
     t.string   "address"
     t.datetime "created_at"
     t.datetime "updated_at"

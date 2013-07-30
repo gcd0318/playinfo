@@ -7,12 +7,12 @@
 
 <p>
   <strong>Theater:</strong>
-  <%= @show.theater_id %>
+  <%= @show.theater[:name] %>
 </p>
 
 <p>
   <strong>Play:</strong>
-  <%= @show.play_id %>
+  <%= link_to @show.play[:name], @show.play[:story], :target=>"_blank" %>
 </p>
 
 <%= link_to 'Edit', edit_show_path(@show) %> |

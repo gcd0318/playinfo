@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Mane</th>
       <th>Address</th>
       <th></th>
       <th></th>
@@ -14,7 +14,7 @@
   <tbody>
     <% @theaters.each do |theater| %>
       <tr>
-        <td><%= theater.name %></td>
+        <td><%= theater.mane %></td>
         <td><%= theater.address %></td>
         <td><%= link_to 'Show', theater %></td>
         <td><%= link_to 'Edit', edit_theater_path(theater) %></td>

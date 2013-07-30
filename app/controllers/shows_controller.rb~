@@ -40,6 +40,8 @@ class ShowsController < ApplicationController
   # PATCH/PUT /shows/1
   # PATCH/PUT /shows/1.json
   def update
+    puts @show[:play_id]
+puts '==========================='
     respond_to do |format|
       if @show.update(show_params)
         format.html { redirect_to @show, notice: 'Show was successfully updated.' }

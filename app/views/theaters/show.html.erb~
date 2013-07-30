@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @theater.name %>
+  <strong>Mane:</strong>
+  <%= @theater.mane %>
 </p>
 
 <p>
