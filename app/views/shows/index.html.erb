@@ -16,8 +16,8 @@
     <% @shows.each do |show| %>
       <tr>
         <td><%= show.date %></td>
-        <td><%= show.play_id %></td>
-        <td><%= show.theater_id %></td>
+        <td><%= link_to show.play[:name], show.play[:story], :target=>"_blank" %></td>
+        <td><%= show.theater[:name] %></td>
         <td><%= link_to 'Show', show %></td>
         <td><%= link_to 'Edit', edit_show_path(show) %></td>
         <td><%= link_to 'Destroy', show, method: :delete, data: { confirm: 'Are you sure?' } %></td>
